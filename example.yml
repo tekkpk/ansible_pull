@@ -1,0 +1,12 @@
+---
+- name: install application
+  hosts: server24
+  connection: local
+  become: true
+
+  tasks:
+  
+    - name: install telent
+      yum:
+        name: telnet
+        state: latest
