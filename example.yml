@@ -1,6 +1,6 @@
 ---
 - name: install application
-  hosts: server24
+  hosts: localhost
   connection: local
   become: true
 
