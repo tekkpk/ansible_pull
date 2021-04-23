@@ -1,6 +1,6 @@
 ---
 - name: install application
-  hosts: localhost
+  hosts: localhost.localdomain
   connection: local
   become: true
 
