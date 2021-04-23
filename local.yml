@@ -1,12 +1,12 @@
 ---
 - name: install application
-  hosts: localhost.localdomain
+  hosts: localhost
   connection: local
   become: true
 
   tasks:
   
-    - name: install telent
+    - name: install telnet
       yum:
         name: telnet
         state: latest
